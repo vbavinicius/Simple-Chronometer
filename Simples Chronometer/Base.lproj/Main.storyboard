@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="alarm clock.ttf">
+            <string>alarmclock</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="ViewController" storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Simples_Chronometer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2d-og-W72" userLabel="Up View">
+                                <rect key="frame" x="0.0" y="20" width="375" height="93.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lkv-QL-6bR">
+                                        <rect key="frame" x="105" y="22" width="165.5" height="50.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="SN2-yt-eRm">
+                                                <rect key="frame" x="0.0" y="0.0" width="165.5" height="31.5"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="30"/>
+                                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CURRENT TIME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZDT-pU-Ase">
+                                                <rect key="frame" x="19.5" y="31.5" width="127" height="19"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="18"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="lkv-QL-6bR" firstAttribute="centerX" secondItem="G2d-og-W72" secondAttribute="centerX" id="nh2-gJ-LxX"/>
+                                    <constraint firstItem="lkv-QL-6bR" firstAttribute="centerY" secondItem="G2d-og-W72" secondAttribute="centerY" id="zjb-no-A7I"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0K-y4-XZv" userLabel="Mid View">
+                                <rect key="frame" x="0.0" y="113.5" width="375" height="420"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xiF-3k-ciH">
+                                        <rect key="frame" x="82" y="0.0" width="211.5" height="420"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="90" translatesAutoresizingMaskIntoConstraints="NO" id="biL-Xn-Hs0">
+                                                <rect key="frame" x="0.0" y="0.0" width="211.5" height="105"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="180"/>
+                                                <color key="textColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="90" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d6g-lD-3eo">
+                                                <rect key="frame" x="0.0" y="106" width="211.5" height="104.5"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="180"/>
+                                                <color key="textColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="90" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X5I-OO-hMx">
+                                                <rect key="frame" x="0.0" y="211" width="211.5" height="104"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="180"/>
+                                                <color key="textColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="90" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGF-wk-PWT">
+                                                <rect key="frame" x="0.0" y="316" width="211.5" height="104"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="180"/>
+                                                <color key="textColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="d6g-lD-3eo" firstAttribute="height" secondItem="biL-Xn-Hs0" secondAttribute="height" id="9sX-Cl-guB"/>
+                                            <constraint firstItem="biL-Xn-Hs0" firstAttribute="height" secondItem="xiF-3k-ciH" secondAttribute="height" multiplier="0.25" id="EuI-a5-fex"/>
+                                            <constraint firstItem="X5I-OO-hMx" firstAttribute="height" secondItem="d6g-lD-3eo" secondAttribute="height" id="Hof-an-eLm"/>
+                                            <constraint firstItem="XGF-wk-PWT" firstAttribute="height" secondItem="X5I-OO-hMx" secondAttribute="height" id="ZG2-BM-TgK"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xiF-3k-ciH" firstAttribute="centerY" secondItem="A0K-y4-XZv" secondAttribute="centerY" id="H3W-JN-hKt"/>
+                                    <constraint firstItem="xiF-3k-ciH" firstAttribute="height" secondItem="A0K-y4-XZv" secondAttribute="height" id="HMm-Ic-w5u"/>
+                                    <constraint firstItem="xiF-3k-ciH" firstAttribute="centerX" secondItem="A0K-y4-XZv" secondAttribute="centerX" id="zVC-7Q-yqZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="anc-aH-Kva" userLabel="Bottom View">
+                                <rect key="frame" x="0.0" y="533.5" width="375" height="133.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FXf-EX-u5J">
+                                        <rect key="frame" x="40" y="20" width="295" height="94"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1r-hC-rmt">
+                                                <rect key="frame" x="0.0" y="33" width="94" height="28"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="15"/>
+                                                <state key="normal" title="bbb">
+                                                    <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="restartButtonDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TyQ-5y-vlQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpQ-4k-gIj">
+                                                <rect key="frame" x="101" y="0.0" width="93.5" height="94"/>
+                                                <color key="backgroundColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="xpQ-4k-gIj" secondAttribute="height" multiplier="1:1" id="KyY-Kw-lgB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="18"/>
+                                                <state key="normal" title="Start">
+                                                    <color key="titleColor" red="0.11372549019607843" green="0.10980392156862745" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="startButtonDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gxd-2f-Yr0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENf-aq-l95">
+                                                <rect key="frame" x="201.5" y="33" width="93.5" height="28"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="alarmclock" family="alarm clock" pointSize="15"/>
+                                                <state key="normal" title="bbb">
+                                                    <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="clearButtonDidPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HeP-We-7QV"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="E1r-hC-rmt" firstAttribute="width" secondItem="ENf-aq-l95" secondAttribute="width" id="Xar-gl-fCq"/>
+                                            <constraint firstItem="xpQ-4k-gIj" firstAttribute="width" secondItem="E1r-hC-rmt" secondAttribute="width" id="f3f-05-FMe"/>
+                                            <constraint firstItem="xpQ-4k-gIj" firstAttribute="height" secondItem="FXf-EX-u5J" secondAttribute="height" priority="750" id="lYy-o7-5a7"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="y4T-sD-bqr"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="FXf-EX-u5J" firstAttribute="centerY" secondItem="anc-aH-Kva" secondAttribute="centerY" id="07d-rg-jVR"/>
+                                    <constraint firstItem="FXf-EX-u5J" firstAttribute="leading" secondItem="anc-aH-Kva" secondAttribute="leading" priority="750" constant="40" id="6vb-ep-Yuq"/>
+                                    <constraint firstAttribute="trailing" secondItem="FXf-EX-u5J" secondAttribute="trailing" priority="750" constant="40" id="Reo-YZ-pDl"/>
+                                    <constraint firstItem="FXf-EX-u5J" firstAttribute="height" secondItem="anc-aH-Kva" secondAttribute="height" multiplier="0.7" id="qQw-OG-9GK"/>
+                                    <constraint firstItem="FXf-EX-u5J" firstAttribute="centerX" secondItem="anc-aH-Kva" secondAttribute="centerX" id="tGY-dz-CgS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.13725490196078433" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="anc-aH-Kva" firstAttribute="top" secondItem="A0K-y4-XZv" secondAttribute="bottom" id="Bcr-iG-I9e"/>
+                            <constraint firstItem="G2d-og-W72" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Cha-P8-AHU"/>
+                            <constraint firstItem="anc-aH-Kva" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FpH-OX-xOW"/>
+                            <constraint firstAttribute="bottom" secondItem="anc-aH-Kva" secondAttribute="bottom" id="NrX-PW-XLh"/>
+                            <constraint firstItem="anc-aH-Kva" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="Olt-P6-dUz"/>
+                            <constraint firstItem="A0K-y4-XZv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VuI-IW-BZY"/>
+                            <constraint firstItem="anc-aH-Kva" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hHL-kL-Vp2"/>
+                            <constraint firstItem="G2d-og-W72" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iht-QE-7h4"/>
+                            <constraint firstItem="A0K-y4-XZv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mDB-Kx-7Me"/>
+                            <constraint firstItem="G2d-og-W72" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nl8-KM-e1o"/>
+                            <constraint firstItem="A0K-y4-XZv" firstAttribute="top" secondItem="G2d-og-W72" secondAttribute="bottom" id="sOe-OA-Bl3"/>
+                            <constraint firstItem="G2d-og-W72" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.14" id="wF7-WA-dEf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="clearButton" destination="ENf-aq-l95" id="CXy-sg-L5k"/>
+                        <outlet property="fullChronoLabel" destination="SN2-yt-eRm" id="vVZ-kE-nPE"/>
+                        <outlet property="hoursLabel" destination="biL-Xn-Hs0" id="8ea-ce-DPV"/>
+                        <outlet property="hundredthsLabel" destination="XGF-wk-PWT" id="YJc-CR-K23"/>
+                        <outlet property="minutesLabel" destination="d6g-lD-3eo" id="Mff-7d-HTK"/>
+                        <outlet property="restartButton" destination="E1r-hC-rmt" id="omh-ZX-SHY"/>
+                        <outlet property="secondsLabel" destination="X5I-OO-hMx" id="Rg4-qF-n7s"/>
+                        <outlet property="startButton" destination="xpQ-4k-gIj" id="5Dg-ET-afH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="117.25352112676056"/>
+        </scene>
+    </scenes>
+</document>

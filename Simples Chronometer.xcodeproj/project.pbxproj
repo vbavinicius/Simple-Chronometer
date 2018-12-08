@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80C417A5209510D500CAD84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C417A4209510D500CAD84C /* AppDelegate.swift */; };
+		80C417A7209510D500CAD84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C417A6209510D500CAD84C /* ViewController.swift */; };
+		80C417AA209510D500CAD84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C417A8209510D500CAD84C /* Main.storyboard */; };
+		80C417AD209510D500CAD84C /* Simples_Chronometer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80C417AB209510D500CAD84C /* Simples_Chronometer.xcdatamodeld */; };
+		80C417AF209510D600CAD84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C417AE209510D600CAD84C /* Assets.xcassets */; };
+		80C417B2209510D600CAD84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C417B0209510D600CAD84C /* LaunchScreen.storyboard */; };
+		80C417BA2096410200CAD84C /* Chronometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C417B92096410200CAD84C /* Chronometer.swift */; };
+		80C417C22096553F00CAD84C /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 80C417BE2096553E00CAD84C /* DS-DIGII.TTF */; };
+		80C417C32096553F00CAD84C /* DS-DIGIT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 80C417BF2096553E00CAD84C /* DS-DIGIT.TTF */; };
+		80C417C42096553F00CAD84C /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 80C417C02096553E00CAD84C /* DS-DIGIB.TTF */; };
+		80C417C52096553F00CAD84C /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 80C417C12096553F00CAD84C /* DS-DIGI.TTF */; };
+		80C417C7209657A700CAD84C /* alarm clock.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C417C6209657A700CAD84C /* alarm clock.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80C417A1209510D500CAD84C /* Simples Chronometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simples Chronometer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C417A4209510D500CAD84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80C417A6209510D500CAD84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80C417A9209510D500CAD84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80C417AC209510D500CAD84C /* Simples_Chronometer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simples_Chronometer.xcdatamodel; sourceTree = "<group>"; };
+		80C417AE209510D600CAD84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C417B1209510D600CAD84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80C417B3209510D600CAD84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C417B92096410200CAD84C /* Chronometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chronometer.swift; sourceTree = "<group>"; };
+		80C417BE2096553E00CAD84C /* DS-DIGII.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGII.TTF"; sourceTree = "<group>"; };
+		80C417BF2096553E00CAD84C /* DS-DIGIT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIT.TTF"; sourceTree = "<group>"; };
+		80C417C02096553E00CAD84C /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		80C417C12096553F00CAD84C /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		80C417C6209657A700CAD84C /* alarm clock.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alarm clock.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C4179E209510D500CAD84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80C41798209510D500CAD84C = {
+			isa = PBXGroup;
+			children = (
+				80C417A3209510D500CAD84C /* Simples Chronometer */,
+				80C417A2209510D500CAD84C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80C417A2209510D500CAD84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C417A1209510D500CAD84C /* Simples Chronometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C417A3209510D500CAD84C /* Simples Chronometer */ = {
+			isa = PBXGroup;
+			children = (
+				80C417BD2096552E00CAD84C /* fonts */,
+				80C417A4209510D500CAD84C /* AppDelegate.swift */,
+				80C417A6209510D500CAD84C /* ViewController.swift */,
+				80C417B92096410200CAD84C /* Chronometer.swift */,
+				80C417A8209510D500CAD84C /* Main.storyboard */,
+				80C417AE209510D600CAD84C /* Assets.xcassets */,
+				80C417B0209510D600CAD84C /* LaunchScreen.storyboard */,
+				80C417B3209510D600CAD84C /* Info.plist */,
+				80C417AB209510D500CAD84C /* Simples_Chronometer.xcdatamodeld */,
+			);
+			path = "Simples Chronometer";
+			sourceTree = "<group>";
+		};
+		80C417BD2096552E00CAD84C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				80C417C12096553F00CAD84C /* DS-DIGI.TTF */,
+				80C417C02096553E00CAD84C /* DS-DIGIB.TTF */,
+				80C417BE2096553E00CAD84C /* DS-DIGII.TTF */,
+				80C417BF2096553E00CAD84C /* DS-DIGIT.TTF */,
+				80C417C6209657A700CAD84C /* alarm clock.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80C417A0209510D500CAD84C /* Simples Chronometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C417B6209510D600CAD84C /* Build configuration list for PBXNativeTarget "Simples Chronometer" */;
+			buildPhases = (
+				80C4179D209510D500CAD84C /* Sources */,
+				80C4179E209510D500CAD84C /* Frameworks */,
+				80C4179F209510D500CAD84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simples Chronometer";
+			productName = "Simples Chronometer";
+			productReference = 80C417A1209510D500CAD84C /* Simples Chronometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80C41799209510D500CAD84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Vinícius Barcelos";
+				TargetAttributes = {
+					80C417A0209510D500CAD84C = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 80C4179C209510D500CAD84C /* Build configuration list for PBXProject "Simples Chronometer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80C41798209510D500CAD84C;
+			productRefGroup = 80C417A2209510D500CAD84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C417A0209510D500CAD84C /* Simples Chronometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C4179F209510D500CAD84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C417C32096553F00CAD84C /* DS-DIGIT.TTF in Resources */,
+				80C417C42096553F00CAD84C /* DS-DIGIB.TTF in Resources */,
+				80C417B2209510D600CAD84C /* LaunchScreen.storyboard in Resources */,
+				80C417AF209510D600CAD84C /* Assets.xcassets in Resources */,
+				80C417C7209657A700CAD84C /* alarm clock.ttf in Resources */,
+				80C417C22096553F00CAD84C /* DS-DIGII.TTF in Resources */,
+				80C417C52096553F00CAD84C /* DS-DIGI.TTF in Resources */,
+				80C417AA209510D500CAD84C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80C4179D209510D500CAD84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C417A7209510D500CAD84C /* ViewController.swift in Sources */,
+				80C417A5209510D500CAD84C /* AppDelegate.swift in Sources */,
+				80C417BA2096410200CAD84C /* Chronometer.swift in Sources */,
+				80C417AD209510D500CAD84C /* Simples_Chronometer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80C417A8209510D500CAD84C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C417A9209510D500CAD84C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80C417B0209510D600CAD84C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C417B1209510D600CAD84C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80C417B4209510D600CAD84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80C417B5209510D600CAD84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80C417B7209510D600CAD84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R69LV7H7TK;
+				INFOPLIST_FILE = "Simples Chronometer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplechronometer.viniciusbarcelos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80C417B8209510D600CAD84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R69LV7H7TK;
+				INFOPLIST_FILE = "Simples Chronometer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simplechronometer.viniciusbarcelos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80C4179C209510D500CAD84C /* Build configuration list for PBXProject "Simples Chronometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C417B4209510D600CAD84C /* Debug */,
+				80C417B5209510D600CAD84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C417B6209510D600CAD84C /* Build configuration list for PBXNativeTarget "Simples Chronometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C417B7209510D600CAD84C /* Debug */,
+				80C417B8209510D600CAD84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80C417AB209510D500CAD84C /* Simples_Chronometer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80C417AC209510D500CAD84C /* Simples_Chronometer.xcdatamodel */,
+			);
+			currentVersion = 80C417AC209510D500CAD84C /* Simples_Chronometer.xcdatamodel */;
+			path = Simples_Chronometer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80C41799209510D500CAD84C /* Project object */;
+}
